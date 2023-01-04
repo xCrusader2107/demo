@@ -374,3 +374,91 @@ text-decoration: none;
     margin-bottom: 30px;
 }
 
+.customer{
+    margin-bottom: 60px;
+}
+.customer-list{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 0 50px;
+}
+.customer-item, .customer-item1{
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    min-width: 400px;
+
+    padding: 30px;
+}
+.customer .container .box .text{
+    margin-bottom: 60px;
+}
+.customer-item1{
+    border: 2px solid #F53838;
+}
+.customer-top{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer-info{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.customer-avatar{
+    width: 50px;
+    height: 50px;
+}
+.customer-describe{
+
+}
+.customer-name{
+     font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0B132A;
+}
+.customer-place{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(30 / 14);
+    /* or 214% */
+    color: #4F5665;
+}
+.customer-rate{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    /* or 188% */
+    color: #0B132A;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.customer-desc{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    /* or 188% */
+
+    display: flex;
+    align-items: center;
+
+    color: #0B132A;
+}
+
